@@ -125,3 +125,5 @@ All API endpoints are prefixed with `/api`.
 - **Export functionality**: Ability to export expense reports to CSV or Excel.
 - **Charts**: Integration of charting libraries (e.g., Recharts) for visualization.
 - **Multi-user support**: Data isolation by partitioning user accounts.
+
+Additional testing and validation details are available in [QA_REPORT.md](file:///c:/Users/jeffi/.gemini/antigravity/scratch/expense-tracker/QA_REPORT.md).
