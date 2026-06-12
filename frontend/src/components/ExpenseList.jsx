@@ -3,9 +3,9 @@ import { Edit2, Trash2, Inbox } from 'lucide-react';
 
 export default function ExpenseList({ expenses, onEdit, onDelete, isLoading }) {
   const formatAmount = (amount) => {
-    return new Intl.NumberFormat('en-US', {
+    return new Intl.NumberFormat('en-IN', {
       style: 'currency',
-      currency: 'USD'
+      currency: 'INR'
     }).format(amount);
   };
 
